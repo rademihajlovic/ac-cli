@@ -1,0 +1,44 @@
+@import url("./styles/contact.scss");
+@import url("./styles/header.scss");
+@import url("./styles/footer.scss");
+@import url("./styles/product.scss");
+@import url("./styles/references.scss");
+@import url("./styles/home.scss");
+
+#app {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.model-loader {
+	width: 100vw;
+	height: calc(100vh - 50px);
+	background-color: rgb(220,220,220);
+	position: relative;
+	display: flex;
+	position: absolute;
+	top: 50px;
+	left: 0;
+}
+
+.model-loader__center {
+	margin: auto;
+}
+
+.model-loader__message {
+	text-align: center;
+	color: rgba(0, 0, 0, 0.5);
+	margin-left: -20px;
+}
+
+.viewer__container{
+	width: 100vw;
+	height: calc(100vh - 50px);
+	overflow: hidden;
+	canvas{
+		//width: 100% !important;
+	}
+}

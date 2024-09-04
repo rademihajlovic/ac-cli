@@ -1,0 +1,22 @@
+.navbar {
+    box-shadow: 0 0.125rem 0.25rem rgba(2,6,23,.075);
+}
+
+.navbar .dropdown .dropdown-toggle:after {
+    color: black;
+    content: "\F282";
+    font-family: bootstrap-icons !important;
+    line-height: 1.5rem;
+    margin-left: 0 !important;
+}
+
+.navbar .caret {
+    position: absolute;
+    top: 0.3rem;
+}
+
+.products .form-select {
+    width: 25% !important;
+    height: 2.5rem;
+    margin-left: 1rem;
+}

@@ -1,0 +1,36 @@
+.products-grid {
+  margin-top: 6rem !important ;
+}
+
+.product {
+  min-height: 250px;
+  gap: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 23% !important;
+  border-radius: 10px
+}
+
+.product:hover {
+  transform: scale(1.05);
+
+}
+
+.product .title {
+    margin-bottom: 3px;
+    color: #fff;
+    font-weight: 600;
+    opacity: 1;
+    height: 3rem;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+  }
+.product .price {
+  color: #fff;
+  opacity: 1;
+
+}
+
+.product-details {
+  margin-top: 6rem;
+}
