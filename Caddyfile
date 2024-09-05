@@ -1,5 +1,4 @@
 ac.rademihajlovic.pro {
-	reverse_proxy /admin* ac-admin-cli:4000
 	reverse_proxy /api* ac-api:3000
 	reverse_proxy ac-cli:80
 }
