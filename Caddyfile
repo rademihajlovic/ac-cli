@@ -1,6 +1,6 @@
 ac.rademihajlovic.pro {
     reverse_proxy /api/v1/docs* respond 404 
 	reverse_proxy /api* ac-api:3000
+	reverse_proxy /admin* ac-admin-cli:3000
 	reverse_proxy  ac-cli:80
-	reverse_proxy /admin* ac-admin-cli:4000
 }
