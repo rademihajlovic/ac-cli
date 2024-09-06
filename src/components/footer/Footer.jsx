@@ -37,7 +37,7 @@ const pages = [
 ];
 const Footer = function () {
 	return (
-		<footer className="footer pt-7 p-5 bg-light">
+		<footer className="footer pt-7 p-5 pb-2 bg-light col-12">
 			<div className="container c">
 				<div className="row">
 					<div className="col-xxl-5 col-lg-5 col-md-7">
@@ -125,7 +125,7 @@ const Footer = function () {
 						<div className="row" id="ft-links">
 							<div className="col-lg-4 col-12">
 								<div className="position-relative">
-									<div className="mb-3 pb-2 d-flex justify-content-between border-bottom border-bottom-lg-0">
+									<div className="mb-1 d-flex justify-content-between border-bottom border-bottom-lg-0">
 										<h5>Stranice</h5>
 										<a
 											className="d-block d-lg-none stretched-link text-inherit"
@@ -141,7 +141,7 @@ const Footer = function () {
 									<div className="collapse d-lg-block" id="collapseLanding" data-bs-parent="#ft-links">
 										<ul className="list-unstyled mb-0 py-3 py-lg-0">
 											{pages.map((page, index) => (
-												<li key={index} className="mb-2">
+												<li key={index} className="mb-1">
 													<a href={page.link} className="text-decoration-none text-reset">{page.title}</a>
 												</li>
 											))}
@@ -161,7 +161,7 @@ const Footer = function () {
 				<div className="row align-items-center">
 					<div className="col-md-9">
 						<div className="small mb-3 mb-md-0">
-							Copyright © 2023
+							Copyright © 2024
 							<span className="text-primary"><a href="/"> Atel Control</a></span>
 
 						</div>

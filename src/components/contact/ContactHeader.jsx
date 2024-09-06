@@ -12,12 +12,12 @@ const ContactHeader = function () {
 							<h1 className="mb-3 mt-3">
 								Kontakt
 							</h1>
-							<h4 className="mb-3 mt-3">
+							<p className="mb-3 mt-3 fs-4">
 								Na raspolaganju smo za sve potrebne informacije.
 
 								<br />
 								Kontaktirajte nas ili nas posjetite.
-							</h4>
+							</p>
 						</div>
 					</div>
 				</div>
