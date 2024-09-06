@@ -8,7 +8,6 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { getProduct } from '../../api/product';
 import { API_BASE_URL } from '../../api/api';
-import ImageSlider from '../common/ImageSlider';
 
 const ProductItem = function () {
 	const [product, setProduct] = useState({});
