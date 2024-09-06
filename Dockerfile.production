@@ -16,6 +16,4 @@ EXPOSE 8080
 
 COPY --from=build-stage /app/dist/ /usr/share/nginx/html
 
-COPY public/image /usr/share/nginx/html/image
-
 COPY --from=build-stage /nginx.conf /etc/nginx/conf.d/default.conf
