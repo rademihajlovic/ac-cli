@@ -33,9 +33,9 @@ const ImageSlider = function (args) {
 		<CarouselItem
 			onExiting={() => setAnimating(true)}
 			onExited={() => setAnimating(false)}
-			key={item.src}
+			key={item}
 		>
-			<img src={item.src} alt={item.altText} />
+			<img src={item} alt={item.altText} />
 			<CarouselCaption
 				captionText={item.caption}
 				captionHeader={item.caption}
