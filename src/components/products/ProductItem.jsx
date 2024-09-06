@@ -30,7 +30,7 @@ const ProductItem = function () {
 					<div className="row gx-5">
 						<aside className="col-lg-5">
 							<div className="border mb-3 d-flex justify-content-center">
-								<ImageSlider className="col-12" items={product.images.map((image) => (`${API_BASE_URL}images/${image}`))} />
+								<img style={{ maxWidth: '100%', maxHeight: '100vh', margin: 'auto' }} className="fit" src={`${API_BASE_URL}images/${product.images[0]}`} />
 							</div>
 
 						</aside>
