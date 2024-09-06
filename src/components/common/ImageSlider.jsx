@@ -8,25 +8,10 @@ import {
 	CarouselCaption,
 } from 'reactstrap';
 
-const items = [
-	{
-		src: 'https://picsum.photos/id/123/1200/400',
-		key: 1,
-	},
-	{
-		src: 'https://picsum.photos/id/456/1200/400',
-		key: 2,
-	},
-	{
-		src: 'https://picsum.photos/id/678/1200/400',
-		key: 3,
-	},
-];
-
 const ImageSlider = function (args) {
 	const [activeIndex, setActiveIndex] = useState(0);
 	const [animating, setAnimating] = useState(false);
-
+	const { items } = args;
 	const next = () => {
 		if (animating) return;
 		const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
