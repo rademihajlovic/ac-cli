@@ -31,6 +31,7 @@ const ImageSlider = function (args) {
 
 	const slides = items.map((item) => (
 		<CarouselItem
+			className="slider-item"
 			onExiting={() => setAnimating(true)}
 			onExited={() => setAnimating(false)}
 			key={item}
@@ -45,6 +46,7 @@ const ImageSlider = function (args) {
 
 	return (
 		<Carousel
+			className="slider"
 			activeIndex={activeIndex}
 			next={next}
 			previous={previous}
