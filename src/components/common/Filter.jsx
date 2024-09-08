@@ -5,10 +5,13 @@
 import React from 'react';
 
 const Filter = function ({
-	manufacturers, machines, filters, onChangeFilter,
+	manufacturers, machines, filters, onChangeFilter, onSearchChange,
 }) {
 	return (
 		<div className="mb-8 mt-8">
+			<div className="col-md-11 mb-4">
+				<input type="text" className="form-control" id="eventSingleNameInput" value={filters.search} placeholder="Search..." onChange={onSearchChange} />
+			</div>
 			<h5 className="mb-3">Proizvođači</h5>
 			{manufacturers && manufacturers.map((manufac, index) => (
 				<div className="form-check mb-2" key={index}>

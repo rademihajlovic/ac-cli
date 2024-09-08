@@ -26,6 +26,7 @@ const ProductsGrid = function () {
 		manufacturers: [manufacturer] || [],
 		machines: [machine] || [],
 		category,
+		search: '',
 	});
 
 	const fetchParts = async () => {
@@ -65,6 +66,13 @@ const ProductsGrid = function () {
 		setSort(e.target.value);
 	};
 
+	const onSearchChange = (e) => {
+		setFilters((prevFilters) => ({
+			...prevFilters,
+			search: e.target.value,
+		}));
+	};
+
 	return (
 		<div className="container mt-5 pt-3">
 			{products.length === 0 && <NoProducts />}
@@ -78,6 +86,7 @@ const ProductsGrid = function () {
 							manufacturers={settings?.manufacturers}
 							filters={filters}
 							onChangeFilter={onChangeFilter}
+							onSearchChange={onSearchChange}
 						/>
 						{' '}
 					</div>
