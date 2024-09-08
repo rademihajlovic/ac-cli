@@ -28,8 +28,8 @@ const ProductItem = function () {
 				<div className="container">
 					<div className="row gx-5">
 						<aside className="col-lg-5">
-							<div className="border mb-3 d-flex justify-content-center">
-								<img style={{ maxWidth: '100%', maxHeight: '100vh', margin: 'auto' }} className="fit" src={`${API_BASE_URL}images/${product.images[0]}`} />
+							<div className="mb-3 d-flex justify-content-center image-container">
+								<img className="fit" src={`${API_BASE_URL}images/${product.images[0]}`} />
 							</div>
 
 						</aside>
