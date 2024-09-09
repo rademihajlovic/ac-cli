@@ -6,4 +6,17 @@
         height: 500px;
         border: none;
      }
+
+     .form-control {
+        border-radius: 0;
+     }
+     .form-control:focus {
+        box-shadow: none;
+      }
+      .form-control:active {
+        box-shadow: none;
+      }
+      .btn {
+        border-radius: 0;
+      }
 }

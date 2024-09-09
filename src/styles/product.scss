@@ -42,6 +42,34 @@
 
 }
 
+.filter .form-control {
+  border-radius: 0;
+}
+
+.filter .form-control:focus {
+  box-shadow: none;
+}
+
+.filter .form-control:active {
+  box-shadow: none;
+}
+
+.products .form-select {
+  border-radius: 0;
+}
+
+.products .form-select:focus {
+  box-shadow: none;
+}
+
+.products .form-select:active {
+  box-shadow: none;
+}
+.products .form-select {
+  width: 25% !important;
+  height: 2.5rem;
+  margin-left: 1rem;
+}
 .product-details {
   margin-top: 6rem;
   .image-container {
