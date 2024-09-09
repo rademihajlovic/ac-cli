@@ -66,7 +66,7 @@ const Header = function () {
 						<ul className="navbar-nav mx-auto align-items-lg-center">
 							{headers.map((header, index) => (
 								<li className="nav-item dropdown" key={index}>
-									<a className="nav-link dropdown-toggle" href={`/products?category=${header.title}`} role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<a className="nav-link dropdown-toggle" href={`/proizvodi?category=${header.title}`} role="button" data-bs-toggle="dropdown" aria-expanded="false">
 										{header.title}
 										{' '}
 										<span className="caret ms-1">&#8964;</span>

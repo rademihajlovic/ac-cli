@@ -12,7 +12,7 @@ const DropdownMenu = function ({ data, category }) {
 							<div key={index}>
 								<div className="dropdown-header">{item}</div>
 								{data[item].map((link, i) => (
-									<a key={i} className="dropdown-item" href={`/products?category=${category}&manufacturer=${item}&machine=${link}`}>{link}</a>
+									<a key={i} className="dropdown-item" href={`/proizvodi?category=${category}&manufacturer=${item}&machine=${link}`}>{link}</a>
 								))}
 							</div>
 						))}

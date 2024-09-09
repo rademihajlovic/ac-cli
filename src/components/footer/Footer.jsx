@@ -8,31 +8,31 @@ import React from 'react';
 const pages = [
 	{
 		title: 'Mill Parts',
-		link: '/products?category=Mill%20Parts',
+		link: '/proizvodi?category=Mill%20Parts',
 	},
 	{
 		title: 'Tablet press parts',
-		link: '/products?category=Tablet%20press%20parts',
+		link: '/proizvodi?category=Tablet%20press%20parts',
 	},
 	{
 		title: 'Capsule filler parts',
-		link: '/products?category=Capsule%20filler%20parts',
+		link: '/proizvodi?category=Capsule%20filler%20parts',
 	},
 	{
 		title: 'Fluid Bed Dryer Parts',
-		link: '/products?category=Fluid%20Bed%20Dryer%20Parts',
+		link: '/proizvodi?category=Fluid%20Bed%20Dryer%20Parts',
 	},
 	{
 		title: 'Mixer/Blender Parts',
-		link: '/products?category=Mixer%2FBlender%20Parts',
+		link: '/proizvodi?category=Mixer%2FBlender%20Parts',
 	},
 	{
 		title: 'Coater Parts',
-		link: '/products?category=Coater%20Parts',
+		link: '/proizvodi?category=Coater%20Parts',
 	},
 	{
 		title: 'Miscellaneous Parts',
-		link: '/products?category=Miscellaneous%20Parts',
+		link: '/proizvodi?category=Miscellaneous%20Parts',
 	},
 ];
 const Footer = function () {

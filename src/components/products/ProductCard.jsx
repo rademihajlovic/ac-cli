@@ -6,7 +6,7 @@ import { API_BASE_URL } from '../../api/api';
 const ProductCard = function ({ product }) {
 	const imageUrl = `${API_BASE_URL}images/${product.images[0]}`;
 	return (
-		<Link to={`/products/${product._id}`} className="product d-flex flex-column m-1 p-0 position-relative" key={product._id}>
+		<Link to={`/proizvodi/${product._id}`} className="product d-flex flex-column m-1 p-0 position-relative" key={product._id}>
 			<div className="image-container">
 				<img src={imageUrl} alt={product.name} />
 			</div>
