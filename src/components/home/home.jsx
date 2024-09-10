@@ -14,14 +14,14 @@ const Home = function () {
 		<>
 			<section>
 				<div className="container home">
-					<div className="row align-items-center g-4 mt-5">
-						<div className="col-lg-6 col-md-12">
+					<div className="row align-items-center mt-3">
+						<div className="col-lg-6 col-md-12 mt-2">
 							<div className="me-xl-8">
-								<h1 className="mb-3">What is Lorem Ipsum?								</h1>
-								<p className="lead mb-4">
+								<h1 className="mb-2">What is Lorem Ipsum?								</h1>
+								<p className="lead mb-3">
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 								</p>
-								<p className="mb-6 me-xl-6">
+								<p className="mb-4 me-xl-6">
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 									Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
 									when an unknown printer took a galley of type and scrambled it to make a
@@ -73,7 +73,7 @@ const Home = function () {
 											</li>
 										</ul>
 									</div>
-									<div className="col-md-6">
+									<div className="col-md-6 mb-0">
 										<ul className="list-unstyled mb-0">
 											<li className="d-flex mb-3">
 												<span>
@@ -122,7 +122,7 @@ const Home = function () {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-6 col-md-12">
+						<div className="col-lg-6 col-md-12 h-100">
 							<figure>
 								<img
 									src="https://placehold.co/600x400"
