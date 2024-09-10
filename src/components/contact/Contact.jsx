@@ -268,7 +268,7 @@ const Contact = function () {
 							</div>
 						</div>
 					</div>
-					<div className="d-flex m-5 mb-0 col-12">
+					<div className="d-flex m-5 mb-5 col-12">
 						<iframe className="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3369.326870834884!2d20.373167476757185!3d44.79875737107095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6f0cff353dd9%3A0x6131d21c71759b01!2sJurija%20Gagarina%20231%2C%20Beograd%2C%20Srbija!5e1!3m2!1sbs!2sba!4v1725457924808!5m2!1sbs!2sba" allowFullScreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps" />
 					</div>
 				</div>
