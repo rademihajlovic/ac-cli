@@ -1,7 +1,4 @@
 import React from 'react';
-import Rocket from '../../assets/images/Rocket.svg';
-import PencilCircle from '../../assets/images/PencilCircle.svg';
-import BracketsCurly from '../../assets/images/BracketsCurly.svg';
 import LightbulbFilament from '../../assets/images/LightbulbFilament.svg';
 import ClientsLogo1 from '../../assets/images/clients-logo-1.svg';
 import ClientsLogo2 from '../../assets/images/clients-logo-2.svg';
@@ -12,134 +9,50 @@ import ClientsLogo5 from '../../assets/images/clients-logo-5.svg';
 const Home = function () {
 	return (
 		<>
-			<section>
-				<div className="container home">
-					<div className="row align-items-center mt-3">
-						<div className="col-lg-6 col-md-12 mt-2">
-							<div className="me-xl-8">
-								<h1 className="mb-2">What is Lorem Ipsum?								</h1>
-								<p className="lead mb-3">
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-								</p>
-								<p className="mb-4 me-xl-6">
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-									Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
-									when an unknown printer took a galley of type and scrambled it to make a
-									type specimen book.
-								</p>
-								<div className="row g-lg-3">
-									<div className="col-md-6">
-										<ul className="list-unstyled mb-3">
-											<li className="d-flex mb-3">
-												<span>
-													<svg
-														xmlns="http://www.w3.org/2000/svg"
-														width="16"
-														height="16"
-														fill="currentColor"
-														className="bi bi-check-circle-fill text-primary opacity-75"
-														viewBox="0 0 16 16"
-													>
-														<path
-															d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-														/>
-													</svg>
-												</span>
-												<span className="ms-2">
-													Aenean eu leo quam
-													ornare curabitur blandit
-													tempus.
-												</span>
-											</li>
-											<li className="d-flex">
-												<span>
-													<svg
-														xmlns="http://www.w3.org/2000/svg"
-														width="16"
-														height="16"
-														fill="currentColor"
-														className="bi bi-check-circle-fill text-primary opacity-75"
-														viewBox="0 0 16 16"
-													>
-														<path
-															d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-														/>
-													</svg>
-												</span>
-												<span className="ms-2">
-													Lorem ipsum dolor sit
-													amet consectetur.
-												</span>
-											</li>
-										</ul>
-									</div>
-									<div className="col-md-6 mb-0">
-										<ul className="list-unstyled mb-0">
-											<li className="d-flex mb-3">
-												<span>
-													<svg
-														xmlns="http://www.w3.org/2000/svg"
-														width="16"
-														height="16"
-														fill="currentColor"
-														className="bi bi-check-circle-fill text-primary opacity-75"
-														viewBox="0 0 16 16"
-													>
-														<path
-															d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-														/>
-													</svg>
-												</span>
-												<span className="ms-2">
-													Consectetur dolor
-													sit, amet sectetur
-													adipisicing.
-												</span>
-											</li>
-											<li className="d-flex">
-												<span>
-													<svg
-														xmlns="http://www.w3.org/2000/svg"
-														width="16"
-														height="16"
-														fill="currentColor"
-														className="bi bi-check-circle-fill text-primary opacity-75"
-														viewBox="0 0 16 16"
-													>
-														<path
-															d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-														/>
-													</svg>
-												</span>
-												<span className="ms-2">
-													Mollitia qui sit
-													velit, facere, quasi quisquam
-													unde.
-												</span>
-											</li>
-										</ul>
+			<section className="pt-9 bg-light mt-6">
+				<div className="container">
+					<div className="row mb-lg-9 mb-5">
+						<div className="col-xl-10 offset-xl-1 col-md-12">
+							<div className="row">
+								<div className="col-lg-6 offset-lg-3 col-md-12">
+									<div className="text-lg-center mb-5">
+										<small
+											className="text-uppercase ls-md fw-semibold text-body-tertiary"
+										>
+											O NAMA
+										</small>
+										<h2 className="mt-3">
+											Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+											consectetur, adipisci velit
+										</h2>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div className="col-lg-6 col-md-12 h-100">
-							<figure>
-								<img
-									src="https://placehold.co/600x400"
-									alt="career"
-									className="img-fluid"
-								/>
-							</figure>
+							<div className="row">
+								<div className=" col-12">
+									<p className="mb-4 mb-md-0S text-center">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+										Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
+										when an unknown printer took a galley of type and scrambled it to make a
+										type specimen book. It has survived not only five centuries, but also the
+										leap into electronic typesetting, remaining essentially unchanged. It was
+										popularised in the 1960s with the release of Letraset sheets containing
+										Lorem Ipsum passages, and more recently with desktop publishing software
+										like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+								</div>
+								<div className="text-lg-center mt-5">
+									<a href="/kontakt" className="btn btn-primary">
+										Kontaktiraj nas
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-			<section className="pt-9 bg-light">
-				<div className="container">
 					<div className="row">
 						<div className="col-lg-4 col-md-12 col-12">
 							<div className="mb-5 mb-lg-0 text-center text-lg-start px-md-5">
-								<h2 className="mb-3">Where does it come from?</h2>
+								<h2 className="mb-3">Šta nudimo?</h2>
 								<p className="mb-0">
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 									Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
@@ -161,7 +74,7 @@ const Home = function () {
 											/>
 										</div>
 
-										<h3 className="h4">Ideation</h3>
+										<h3 className="h4">Projektovanje</h3>
 										<p className="mb-0 pe-lg-4">
 											Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 										</p>
@@ -173,12 +86,12 @@ const Home = function () {
 									>
 										<div className="mb-3">
 											<img
-												src={PencilCircle}
+												src={LightbulbFilament}
 												alt="bulb"
 											/>
 										</div>
 
-										<h3 className="h4">Design</h3>
+										<h3 className="h4">Proizvodnja</h3>
 										<p className="mb-0">
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 											tempor incididunt ut labore et dolore magna aliqua.
@@ -191,12 +104,12 @@ const Home = function () {
 									>
 										<div className="mb-3">
 											<img
-												src={BracketsCurly}
+												src={LightbulbFilament}
 												alt="bulb"
 											/>
 										</div>
 
-										<h3 className="h4">Development</h3>
+										<h3 className="h4">Prodaja delova</h3>
 										<p className="mb-0 pe-lg-4">
 											Curabitur porta in nulla a pharetra.
 											Fusce dolor leo, consectetur ut eleifend ut, venenatis iaculis mi.
@@ -210,12 +123,12 @@ const Home = function () {
 									>
 										<div className="mb-3">
 											<img
-												src={Rocket}
+												src={LightbulbFilament}
 												alt="bulb"
 											/>
 										</div>
 
-										<h3 className="h4">Delivery</h3>
+										<h3 className="h4">Izvođenje radova</h3>
 										<p className="mb-0 pe-lg-4">
 											Nulla interdum dolor maximus ipsum interdum, hendrerit suscipit odio tempor.
 										</p>
@@ -231,18 +144,9 @@ const Home = function () {
 					<div className="row">
 						<div className="col-xl-6 offset-xl-3 col-md-12 col-12">
 							<div className="text-center mb-xl-7 mb-5">
-								<small className="text-uppercase ls-md fw-semibold">
-									modern
-									tech stack
-								</small>
-								<h2 className="my-3">Building the web</h2>
-								<p className="mb-0 text-body">
-									We work with cutting-edge technologies designed to
-									solve your product requirements. Focus on finding
-									solutions for your business needs while we handle
-									the technical
-									aspect.
-								</p>
+								<h3 className="text-uppercase ls-md fw-semibold">
+									Brendovi
+								</h3>
 							</div>
 						</div>
 					</div>
