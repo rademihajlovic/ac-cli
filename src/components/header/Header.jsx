@@ -87,11 +87,6 @@ const Header = function () {
 								</li>
 							))}
 						</ul>
-						<ul className="navbar-nav mb-2 mb-lg-0 position-absolute end-0 me-3">
-							<li className="nav-item">
-								<a className="nav-link" aria-current="page" href="/kontakt">Kontakt</a>
-							</li>
-						</ul>
 					</div>
 				</div>
 			</div>
