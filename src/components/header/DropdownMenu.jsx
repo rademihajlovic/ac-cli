@@ -4,7 +4,7 @@ import React from 'react';
 
 const DropdownMenu = function ({ data, category }) {
 	return (
-		<div className="dropdown-menu dropdown-menu-xxl">
+		<div className="dropdown-menu dropdown-menu-xxl" aria-labelledby="navbarDropdown">
 			<div className="row row-cols-lg-4 row-cols-1 g-0">
 				<div className="col">
 					<div>

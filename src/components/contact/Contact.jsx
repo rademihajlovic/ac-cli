@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable no-underscore-dangle */
 import React, { useState } from 'react';
-import { Container } from 'reactstrap';
 import ContactHeader from './ContactHeader';
 import { sendEmail } from '../../api/settings';
 
@@ -32,18 +31,18 @@ const Contact = function () {
 	};
 
 	return (
-		<Container className="contact-form mt-5 pt-5">
+		<div className="contact-form pt-5">
 			<ContactHeader />
 			<section className=" mt-2">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-10 offset-lg-1 col-md-12">
 							<div className="row g-lg-10 gy-5 align-items-center">
-								<div className="col-md-6 mt-5 p-5">
+								<div className="form col-md-6 col-sm-12 mt-5 p-5">
 									<div className="card shadow-sm rounded-0">
 										<div className="card-body ">
 											<form className="needs-validation" noValidate>
-												<div className="mb-3">
+												<div className="mb-3 form-input">
 													<label
 														htmlFor="YourNameInput"
 														className="form-label"
@@ -62,7 +61,7 @@ const Contact = function () {
 														Unesite vaše ime i prezime.
 													</div>
 												</div>
-												<div className="mb-3">
+												<div className="mb-3 form-input">
 													<label
 														htmlFor="yourEmailInput"
 														className="form-label"
@@ -81,7 +80,7 @@ const Contact = function () {
 														Unesite vašu email adresu.
 													</div>
 												</div>
-												<div className="mb-3">
+												<div className="mb-3 form-input">
 													<label
 														htmlFor="messageTextarea"
 														className="form-label"
@@ -113,7 +112,7 @@ const Contact = function () {
 									</div>
 
 								</div>
-								<div className="col-md-6">
+								<div className="info col-md-6">
 									<div className="d-flex mb-4">
 										<div>
 											<svg
@@ -273,7 +272,7 @@ const Contact = function () {
 					</div>
 				</div>
 			</section>
-		</Container>
+		</div>
 	);
 };
 

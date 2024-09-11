@@ -1,5 +1,5 @@
 .footer {
-    background-color: #f5f5f5;
+    background-color: #7D0A0A;
      .contact {
         padding: 3rem;
         padding-bottom: 1rem;
@@ -8,4 +8,35 @@
       border-radius: 0;
      }
 
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+   .footer {
+      font-size: 3rem;
+      h5 {
+         font-size: 3rem;
+      }
+      .container {
+         min-width: 100% !important;
+         .contact {
+            padding: 3rem;
+            padding-bottom: 1rem;
+            width: 100%;
+
+            .btn-icon {
+               width: 7rem;
+               height: 7rem;
+               gap: 3rem;
+               svg {
+                  width: 5rem;
+                  height: 5rem;
+               }
+            }
+         }
+      }
+      .pages {
+         font-size: 3rem;
+         margin-left: 3rem;
+      }
+   }
 }

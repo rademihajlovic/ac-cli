@@ -1,6 +1,6 @@
 .contact-form {
     background-color: #fff;
-
+    margin-top: 2rem;
     iframe {
         width: 100%;
         height: 500px;
@@ -19,4 +19,66 @@
       .btn {
         border-radius: 0;
       }
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+  .contact-form {
+    margin-top: 7rem !important;
+    font-size: 3rem;
+    h1 {
+      font-size: 3.5rem;
+    }
+    p {
+      font-size: 3rem !important;
+    }
+    .container {
+      min-width: 100% !important;
+    }
+    .form {
+      width: 100% !important;
+      label {
+        font-size: 3rem;
+      }
+      .form-control {
+        font-size: 3rem;
+        border-width: 2px;
+      }
+      .form-input {
+        padding-bottom: 2rem;
+      }
+      .btn-primary {
+        height: 10rem;
+        width: 80%;
+        font-size: 3rem;
+        padding-top: 2.5rem;
+        padding-bottom: 3rem;
+        margin-left:10%;
+    }
+    .card {
+      border: none;
+      box-shadow: none !important;
+    }
+    }
+    .info {
+      width: 100% !important;
+      padding: 3rem;
+      h5 {
+        font-size: 3rem;
+      }
+      svg {
+        width: 3rem;
+        height: 3rem;
+      }
+
+      .btn-icon {
+        width: 7rem;
+        height: 7rem;
+        gap: 3rem;
+        svg {
+           width: 5rem;
+           height: 5rem;
+        }
+     }
+    }
+  }
 }

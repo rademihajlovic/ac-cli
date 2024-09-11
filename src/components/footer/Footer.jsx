@@ -38,9 +38,9 @@ const pages = [
 const Footer = function () {
 	return (
 		<footer className="footer pt-7 p-5 pb-2 bg-light col-12">
-			<div className="container c">
+			<div className="container">
 				<div className="row">
-					<div className="col-xxl-5 col-lg-5 col-md-7">
+					<div className="contact col-xxl-5 col-lg-5 col-md-7">
 						<div className="col-md-6">
 							<div className="d-flex mb-4">
 								<div>
@@ -148,32 +148,22 @@ const Footer = function () {
 							</div>
 						</div>
 					</div>
-					<div className="offset-xxl-1 col-xxl-6 col-lg-6 offset-md-1 col-md-4">
+					<div className="pages offset-xxl-1 col-xxl-6 col-lg-6 offset-md-1 col-md-4">
 						<div className="row" id="ft-links">
 							<div className="col-lg-4 col-12">
 								<div className="position-relative">
 									<div className="mb-1 d-flex justify-content-between border-bottom border-bottom-lg-0">
 										<h5>Stranice</h5>
-										<a
-											className="d-block d-lg-none stretched-link text-inherit"
-											data-bs-toggle="collapse"
-											href="#collapseLanding"
-											role="button"
-											aria-expanded="false"
-											aria-controls="collapseLanding"
-										>
-											<i className="bi bi-chevron-down" />
-										</a>
 									</div>
-									<div className="collapse d-lg-block" id="collapseLanding" data-bs-parent="#ft-links">
+									<div className="d-lg-block">
 										<ul className="list-unstyled mb-0 py-3 py-lg-0">
 											{pages.map((page, index) => (
 												<li key={index} className="mb-1">
-													<a href={page.link} className="text-decoration-none text-reset">{page.title}</a>
+													<a href={page.link} className="text-reset"><small>{page.title}</small></a>
 												</li>
 											))}
 											<li className="mb-2">
-												<a href="/kontakt" className="text-decoration-none text-reset">Kontakt</a>
+												<a href="/kontakt" className="text-reset"><small>Kontakt</small></a>
 											</li>
 										</ul>
 									</div>
