@@ -9,7 +9,7 @@ import ClientsLogo5 from '../../assets/images/clients-logo-5.svg';
 const Home = function () {
 	return (
 		<>
-			<section className="pt-9 bg-light mt-6">
+			<section className="pt-9 mt-6">
 				<div className="container">
 					<div className="row mb-lg-9 mb-5">
 						<div className="col-xl-10 offset-xl-1 col-md-12">
