@@ -10,7 +10,7 @@ const ProductCard = function ({ product }) {
 			<div className="image-container">
 				<img src={imageUrl} alt={product.name} />
 			</div>
-			<div className="position-absolute bottom-0 col-12 d-flex flex-column justify-content-center aligh-items-center text-dark text-center bg-dark opacity-50">
+			<div className="position-absolute bottom-0 col-12 d-flex flex-column justify-content-center aligh-items-center text-dark text-center">
 				<div className="title-container d-flex align-items-center justify-content-center"><p className="title mt-2 ">{product.name}</p></div>
 				<p className="price fw-bolder my-1">
 					{product.price}

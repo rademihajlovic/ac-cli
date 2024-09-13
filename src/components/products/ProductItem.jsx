@@ -49,7 +49,7 @@ const ProductItem = function () {
 
 								</div>
 								<div className="mb-3">
-									<span className="fs-6">
+									<span className="stock fs-6">
 										Na stanju:
 										{' '}
 										{product.stock}
@@ -67,8 +67,7 @@ const ProductItem = function () {
 									<br />
 									<div>
 										<dt className="col-3">
-											Proizvođač
-											:
+											Proizvođač:
 										</dt>
 										<dd className="col-9">{product.manufacturer}</dd>
 									</div>

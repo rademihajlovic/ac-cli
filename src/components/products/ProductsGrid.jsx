@@ -74,10 +74,8 @@ const ProductsGrid = function () {
 	};
 
 	return (
-		<div className="container mt-5 pt-3">
-
-			<div className="products-grid row">
-
+		<div className="products-grid container pt-3">
+			<div className="row">
 				<div className="filter col-3">
 					{' '}
 					<Filter
