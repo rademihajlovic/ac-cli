@@ -68,7 +68,7 @@ const Header = function () {
 						<a href="/" className="text-inverse">
 							<img
 								src={logo}
-								style={{ width: '90px' }}
+								style={{ width: '150px' }}
 								alt=""
 							/>
 						</a>

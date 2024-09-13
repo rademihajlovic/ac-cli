@@ -25,6 +25,20 @@
 @media only screen and (hover: none) and (pointer: coarse){
     .navbar {
         height: 180px !important;
+        font-size: 2.5rem !important;
+        .offcanvas {
+            width: 60% !important;
+            font-size: 2.5rem !important;
+            a {
+                font-size: 2.5rem !important;
+            }
+            .caret {
+                display: none;
+            }
+            .dropdown .dropdown-toggle:after {
+                display: none;
+            }
+        }
         .container {
             min-width: 100% !important;
             .logo {
